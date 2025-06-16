@@ -7,13 +7,12 @@ This is a simple Node.js HTTPS server template using a wildcard SSL certificate.
 - HTTPS server using Node.js
 - Wildcard SSL certificate support
 - Ready for deployment with systemd
-- Minimal Express setup
 
 ## Setup Instructions
 
-1. **Upload your wildcard certificate files** to the EC2 instance:
-   - `/etc/ssl/certs/metrological.crt`
-   - `/etc/ssl/private/metrological.key`
+1. **Upload your wildcard certificate files** to the EC2 instance: (Please note you can also use the TLS Deployment Livebook) 
+   - `/etc/ssl/metrological/metrological.crt`
+   - `/etc/ssl/metrological/metrological.com.key`
 
 2. **Set permissions**:
 
