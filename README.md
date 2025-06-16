@@ -1,4 +1,4 @@
-# My Node App
+# node-web-test-server
 
 This is a simple Node.js HTTPS server template using a wildcard SSL certificate.
 
